@@ -1,0 +1,274 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: #FFFBEB;
+
+}
+.cover{
+  position:  relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.cover .right img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    object-fit: cover
+}
+.cover .left .flag{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28%;
+    object-fit: cover
+
+}
+.cover .left .vector{
+    
+/* Vector */
+
+position: absolute;
+right: 46%;
+top:8%;
+bottom: 13.42%;
+width: 14.5%;
+
+color: #F4EFDB;
+object-fit: cover
+
+}
+
+.cover .left .palestine{
+    
+    /* Vector */
+    
+    position: absolute;
+    right: 52%;
+    top:27%;
+    bottom: 13.42%;
+    width: 10%;
+
+    object-fit: cover  
+    }
+.cover .left .text{
+    
+        /* Vector */
+        /*  فلـســـــــــــــــــــــــطين */
+
+position: absolute;
+width: 437px;
+
+right: 56%;
+top: 45%;
+
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 48px;
+text-align: right;
+
+color: #456C27;
+
+
+        }
+.cover .left .vector2{
+
+            
+    position: absolute;
+    right: 70.7%;
+    top:36.7%;
+   
+    object-fit: cover;
+    /*background-color: #FFFBEB;/*/
+    z-index: 1;
+    
+
+            
+}
+
+.slider{
+    position: absolute;
+    bottom:10px;
+    text-align: center;
+    left: 20px;
+    width: 390px;
+    height: 100px;
+    color: #F4EFDB;
+    font-size: 1.4em;
+    overflow: hidden;
+    z-index: 5;
+    padding: 20px;
+  }
+ 
+  .cover .left .text2{
+    width: 100%;
+      color: #456C27;
+    flex-shrink: 0;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .cover .left .text2 p{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+     font-size: 16.8px;
+}
+  .rightQuote{
+    position: absolute;
+    right: 2px;
+    bottom:20px;
+    opacity: 0.4;
+  
+  }
+  .leftQuote{
+    position: absolute;
+    left: 30px;
+   top:22px;
+    opacity: .4;
+    
+  }
+  .inf{
+    direction: rtl;
+    background-color: #F4EFDB;
+    margin: 5%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+ 
+  .inf .slideR {
+    display: flex;
+    margin: 40px;
+    margin-top: 30px;
+    height: 52vh;
+    flex-flow: row;
+
+    
+  }
+  .inf .slideR img{
+     width: 40%;
+    
+     background-size: cover;
+     -webkit-background-position: center;
+     background-position: center center;
+     margin: 20px;
+     box-shadow: 0 5px 5px 5px #647040;
+     animation: animate 5s ease-in-out infinite;
+     transition: all 1s ease-in-out;
+  }
+  .inf .slideL img{
+    
+    width: 40%;
+    margin-right: 15px;
+   
+    background-size: cover;
+    -webkit-background-position: center;
+    background-position: center center;
+    margin: 20px;
+    box-shadow: 0 5px 5px 5px #647040;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+ }
+ .inf .slideR .text3{
+  display: flex;
+  flex-flow: column;
+ 
+  font-size: 20px;
+  margin: 14px;
+ }
+ .inf .slideR .text3 h2{
+ margin-bottom: 10px;
+ color: #ce1126;
+ }
+ 
+@keyframes animate {
+  0%, 100%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50%{
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
+  .inf .slideL {
+    display: flex;
+    flex-flow: row;
+    height: 50vh;
+    margin: 40px;
+    
+  }
+  .inf .df{
+    position: relative;
+    top: -27px;
+    margin: 1px;
+    width: 66.6%;
+  }
+ 
+ .inf .slideL .text3{
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  margin: 20px;
+ }
+ .inf .slideL .text3 h2{
+ margin-bottom: 10px;
+ color: #ce1126;
+ font-weight: bold;
+ }
+ .footer {
+  width: 100%;
+  direction: rtl;
+  height: 6em;
+  background-color: #17181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  
+  font-size: 1.6rem;
+  color: #a7a7a7;
+}
+
+.social-list a {
+  margin: 0 2rem;
+}
+
+.social-list i {
+  font-size: 2rem;
+  color: #a7a7a7;
+}
+
+.scroll-btn {
+  position: fixed;
+  right: 1.6rem;
+  bottom: 2rem;
+  width: 2.2rem;
+ text-decoration: none;
+  height: 2.2rem;
+  background-color: #7c8a53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
