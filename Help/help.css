@@ -1,1 +1,139 @@
+:root {
+    --color-1: #18b835;
+    --color-2: #389f2a;
+    --color-3: #1ece14;
+    --color-4: #11e83c;
+    --color-5: darkgreen;
+    --main-color :#95AE74
+  }
+  
+   
+  *{
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+  }
 
+.landing1 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    direction: ltr;
+    /*position: relative;*/
+  }
+  
+  .landing-2 {
+    background-image: none !important;
+    background-color: #121212;
+    height: 100% !important;
+    padding: 1rem;
+  
+  }
+  .centre {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: rgb(255, 46, 23);
+  }
+  .title {
+    color: rgb(255, 46, 23);
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    direction: ltr;
+    font-size: 2.4rem;
+  }
+  
+  .card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: .89rem;
+  
+  }
+  .card {
+    width: 29rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #cfcfcf;
+    padding: 0 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    transition: all 0.4s;
+    align-self: stretch;
+  }
+  
+  .card:hover {
+    transform: translateY(-1rem);
+  }
+  .card__icon {
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .card__subtitle {
+    padding: 1rem;
+    color: rgb(213, 30, 10);
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  .card__para {
+    font-size: 1.2333rem;
+    color: #121212;
+   padding: 0.8rem;
+   
+   direction: rtl;
+  }
+  .card__para-2 {
+    text-align: center;
+    font-size: 1.3rem;
+    direction: rtl;
+  }
+  .card__pic {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card__title {
+  
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding: 1rem;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg, var(--color-1) 19%, transparent 19%, transparent 20%, var(--color-2) 20%, var(--color-2) 39%, transparent 39%, transparent 40%, var(--color-3) 40%, var(--color-3) 59%, transparent 59%, transparent 60%, var(--color-4) 60%, var(--color-4) 79%, transparent 79%, transparent 80%, var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .button {
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(185, 181, 181);
+    border-radius: 0.2rem;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .button-pic {
+    width: 100%;
+    object-fit: cover;
+  }
+  .button:hover {
+    transform: translateY(-1rem);
+    background-color: darkgreen;
+    color: white;
+  }
+ 
