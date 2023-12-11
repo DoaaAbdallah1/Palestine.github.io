@@ -1,3 +1,41 @@
+@import url(../Fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf);
+@import url(../Fonts/Gulzar/Gulzar-Regular.ttf);
+@import url(../Fonts/Lemonada/Lemonada-VariableFont_wght.ttf);
+@import url(../Fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf);
+@import url(../Fonts/Poppins/Poppins-Bold.ttf);
+@import url(../Fonts/Scheherazade_New/ScheherazadeNew-Bold.ttf);
+
+
+@font-face {
+  font-family:'IBM Plex Sans Arabic' ;
+  src: url('../Fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf');
+}
+@font-face {
+  font-family:'Gulzar' ;
+  src: url('../Fonts/Gulzar/Gulzar-Regular.ttf');
+}
+@font-face {
+  font-family:'Lemonada' ;
+  src: url('../Fonts/Lemonada/Lemonada-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family:'El Messiri' ;
+  src: url('../Fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family:'Poppins' ;
+  src: url('../Fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family:'Scheherazade New' ;
+  src: url('../Fonts/Scheherazade_New/ScheherazadeNew-Bold.ttf');
+}
+@font-face {
+  font-family:'Marhey' ;
+  src: url('../Fonts/Marhey/Marhey-VariableFont_wght.ttf');
+}
+
+
 *{
    margin: 0;
    padding: 0;
@@ -22,6 +60,7 @@ body{
     height: 100%;
     object-fit: cover
 }
+
 .cover .left .flag{
     position: absolute;
     left: 0;
@@ -211,7 +250,8 @@ color: #456C27;
     position: relative;
     top: -27px;
     margin: 1px;
-    width: 66.6%;
+    width: 60%;
+    
   }
  
  .inf .slideL .text3{
