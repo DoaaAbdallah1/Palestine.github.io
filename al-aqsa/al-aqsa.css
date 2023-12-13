@@ -179,6 +179,7 @@ color: #456C27;
     background-color: #F4EFDB;
     margin: 5%;
     padding: 10px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,10 +251,30 @@ color: #456C27;
     position: relative;
     top: -27px;
     margin: 1px;
-    width: 60%;
+    width: 75%;
+
     
   }
- 
+  .textR {
+    color: #465029;
+    font-size: 17px;
+    position: absolute;
+    right: 200px;
+    line-height: 19.7px;
+    top: 120px;
+    font-weight: bold;
+
+  }
+  .textL {
+    color: #465029;
+    font-size: 17px;
+    position: absolute;
+    left: 170px;
+    line-height: 20px;
+    top: 120px;
+    font-weight: bold;
+    direction: ltr;
+  }
  .inf .slideL .text3{
   display: flex;
   flex-flow: column;
