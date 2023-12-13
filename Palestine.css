@@ -1,3 +1,39 @@
+@import url('Fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf');
+@import url('Fonts/Gulzar/Gulzar-Regular.ttf');
+@import url('Fonts/Lemonada/Lemonada-VariableFont_wght.ttf');
+@import url('Fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf');
+@import url('Fonts/Poppins/Poppins-Bold.ttf');
+@import url('Fonts/Scheherazade_New/ScheherazadeNew-Bold.ttf');
+@import url('Fonts/Marhey/Marhey-VariableFont_wght.ttf');
+
+@font-face {
+  font-family:'IBM Plex Sans Arabic' ;
+  src: url('Fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf');
+}
+@font-face {
+  font-family:'Gulzar' ;
+  src: url('Fonts/Gulzar/Gulzar-Regular.ttf');
+}
+@font-face {
+  font-family:'Lemonada' ;
+  src: url('Fonts/Lemonada/Lemonada-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family:'El Messiri' ;
+  src: url('Fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family:'Poppins' ;
+  src: url('Fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family:'Scheherazade New' ;
+  src: url('Fonts/Scheherazade_New/ScheherazadeNew-Bold.ttf');
+}
+@font-face {
+  font-family:'Marhey' ;
+  src: url('Fonts/Marhey/Marhey-VariableFont_wght.ttf');
+}
 /*
 
 #CE1126
@@ -47,6 +83,9 @@ body{
   font-size: 30px;
   cursor: pointer;
 }
+.header .toggler:hover{
+  color: #b91a2c;
+ }
 .header .toggler.hidden{
   opacity: 0;
 }
@@ -58,6 +97,9 @@ margin-left: 70%;
 cursor: pointer;
 transition: .5s opacity ease-in-out;
 }
+.header .map:hover{
+ color: #b91a2c;
+ }
 .header .map.hidden{
   opacity: 0;
 }
@@ -227,6 +269,7 @@ color: #283233;
   opacity: .4;
   
 }
+
 .controls{
   position: absolute;
   bottom: 20px;
@@ -246,6 +289,9 @@ color: #283233;
   place-items: center;
   cursor: pointer;
 }
+.controls > div:hover{
+  background-color: #b91a2c;
+ }
 
 .box2{
   border-left: 20px solid black;
@@ -605,7 +651,7 @@ animation: move 0.4s infinite ease-in-out ;
     padding-top: 23% ;
     padding-right: 0;
     margin-left: 0;
-   
+    
    
   }
   .navMap .left{
